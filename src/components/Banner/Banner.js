@@ -49,7 +49,7 @@ const Banner = () => {
                         <img src="https://openweathermap.org/img/wn/02d@2x.png" className='mx-auto' alt="" />
                         <h1 className="mb-5 text-5xl font-bold">{data?.name}</h1>
                         <p className="mb-5 text-2xl">{data?.main?.temp}°C</p>
-                        <p className="mb-5">{data.weather[0].main}</p>
+                        <p className="mb-5">{data?.weather[0]?.main}</p>
 
                     </div>
                 </div>
